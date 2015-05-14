@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		777B17D01B03E06C00FD8F52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B17CF1B03E06C00FD8F52 /* main.m */; };
+		777B17D31B03E06C00FD8F52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B17D21B03E06C00FD8F52 /* AppDelegate.m */; };
+		777B17D61B03E06C00FD8F52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B17D51B03E06C00FD8F52 /* ViewController.m */; };
+		777B17D91B03E06C00FD8F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777B17D71B03E06C00FD8F52 /* Main.storyboard */; };
+		777B17DB1B03E06C00FD8F52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777B17DA1B03E06C00FD8F52 /* Images.xcassets */; };
+		777B17DE1B03E06C00FD8F52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777B17DC1B03E06C00FD8F52 /* LaunchScreen.xib */; };
+		777B17EA1B03E06C00FD8F52 /* iotknockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B17E91B03E06C00FD8F52 /* iotknockTests.m */; };
+		777B17F41B03E26B00FD8F52 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B17F31B03E26B00FD8F52 /* CoreTelephony.framework */; };
+		777B17F61B03E27E00FD8F52 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B17F51B03E27E00FD8F52 /* GLKit.framework */; };
+		777B17F81B03E28900FD8F52 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B17F71B03E28900FD8F52 /* libstdc++.6.dylib */; };
+		777B17FA1B03E29600FD8F52 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B17F91B03E29600FD8F52 /* libicucore.dylib */; };
+		777B17FC1B03E2B700FD8F52 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B17FB1B03E2B700FD8F52 /* CoreMedia.framework */; };
+		777B17FE1B03E2BF00FD8F52 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B17FD1B03E2BF00FD8F52 /* AudioToolbox.framework */; };
+		777B18001B03E2CB00FD8F52 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B17FF1B03E2CB00FD8F52 /* libsqlite3.dylib */; };
+		777B18021B03E2D400FD8F52 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B18011B03E2D400FD8F52 /* SystemConfiguration.framework */; };
+		777B18041B03E2DD00FD8F52 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B18031B03E2DD00FD8F52 /* AVFoundation.framework */; };
+		777B18061B03E2ED00FD8F52 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B18051B03E2ED00FD8F52 /* AddressBook.framework */; };
+		777B18081B03E2F500FD8F52 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B18071B03E2F500FD8F52 /* ImageIO.framework */; };
+		777B180A1B03E30000FD8F52 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B18091B03E30000FD8F52 /* MobileCoreServices.framework */; };
+		777B180C1B03E30E00FD8F52 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B180B1B03E30E00FD8F52 /* libc++.dylib */; };
+		777B180E1B03E31600FD8F52 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B180D1B03E31600FD8F52 /* CoreLocation.framework */; };
+		777B18111B03E43D00FD8F52 /* KandySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B180F1B03E43D00FD8F52 /* KandySDK.framework */; };
+		777B18121B03E43D00FD8F52 /* MobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777B18101B03E43D00FD8F52 /* MobileSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		777B17E41B03E06C00FD8F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777B17C21B03E06C00FD8F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777B17C91B03E06C00FD8F52;
+			remoteInfo = iotknock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		777B17CA1B03E06C00FD8F52 /* iotknock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iotknock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777B17CE1B03E06C00FD8F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777B17CF1B03E06C00FD8F52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		777B17D11B03E06C00FD8F52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		777B17D21B03E06C00FD8F52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		777B17D41B03E06C00FD8F52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		777B17D51B03E06C00FD8F52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		777B17D81B03E06C00FD8F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		777B17DA1B03E06C00FD8F52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		777B17DD1B03E06C00FD8F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		777B17E31B03E06C00FD8F52 /* iotknockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iotknockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		777B17E81B03E06C00FD8F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777B17E91B03E06C00FD8F52 /* iotknockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iotknockTests.m; sourceTree = "<group>"; };
+		777B17F31B03E26B00FD8F52 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		777B17F51B03E27E00FD8F52 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		777B17F71B03E28900FD8F52 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		777B17F91B03E29600FD8F52 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		777B17FB1B03E2B700FD8F52 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		777B17FD1B03E2BF00FD8F52 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		777B17FF1B03E2CB00FD8F52 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		777B18011B03E2D400FD8F52 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		777B18031B03E2DD00FD8F52 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		777B18051B03E2ED00FD8F52 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		777B18071B03E2F500FD8F52 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		777B18091B03E30000FD8F52 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		777B180B1B03E30E00FD8F52 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		777B180D1B03E31600FD8F52 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		777B180F1B03E43D00FD8F52 /* KandySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KandySDK.framework; path = ../../../Projects/KandyKnocker/iOSKandySDK_1.4.0/Frameworks/KandySDK.framework; sourceTree = "<group>"; };
+		777B18101B03E43D00FD8F52 /* MobileSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileSDK.framework; path = ../../../Projects/KandyKnocker/iOSKandySDK_1.4.0/Frameworks/MobileSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777B17C71B03E06C00FD8F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777B18111B03E43D00FD8F52 /* KandySDK.framework in Frameworks */,
+				777B18121B03E43D00FD8F52 /* MobileSDK.framework in Frameworks */,
+				777B180E1B03E31600FD8F52 /* CoreLocation.framework in Frameworks */,
+				777B180C1B03E30E00FD8F52 /* libc++.dylib in Frameworks */,
+				777B180A1B03E30000FD8F52 /* MobileCoreServices.framework in Frameworks */,
+				777B18081B03E2F500FD8F52 /* ImageIO.framework in Frameworks */,
+				777B18061B03E2ED00FD8F52 /* AddressBook.framework in Frameworks */,
+				777B18041B03E2DD00FD8F52 /* AVFoundation.framework in Frameworks */,
+				777B18021B03E2D400FD8F52 /* SystemConfiguration.framework in Frameworks */,
+				777B18001B03E2CB00FD8F52 /* libsqlite3.dylib in Frameworks */,
+				777B17FE1B03E2BF00FD8F52 /* AudioToolbox.framework in Frameworks */,
+				777B17FC1B03E2B700FD8F52 /* CoreMedia.framework in Frameworks */,
+				777B17FA1B03E29600FD8F52 /* libicucore.dylib in Frameworks */,
+				777B17F81B03E28900FD8F52 /* libstdc++.6.dylib in Frameworks */,
+				777B17F61B03E27E00FD8F52 /* GLKit.framework in Frameworks */,
+				777B17F41B03E26B00FD8F52 /* CoreTelephony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777B17E01B03E06C00FD8F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777B17C11B03E06C00FD8F52 = {
+			isa = PBXGroup;
+			children = (
+				777B180F1B03E43D00FD8F52 /* KandySDK.framework */,
+				777B18101B03E43D00FD8F52 /* MobileSDK.framework */,
+				777B180D1B03E31600FD8F52 /* CoreLocation.framework */,
+				777B180B1B03E30E00FD8F52 /* libc++.dylib */,
+				777B18091B03E30000FD8F52 /* MobileCoreServices.framework */,
+				777B18071B03E2F500FD8F52 /* ImageIO.framework */,
+				777B18051B03E2ED00FD8F52 /* AddressBook.framework */,
+				777B18031B03E2DD00FD8F52 /* AVFoundation.framework */,
+				777B18011B03E2D400FD8F52 /* SystemConfiguration.framework */,
+				777B17FF1B03E2CB00FD8F52 /* libsqlite3.dylib */,
+				777B17FD1B03E2BF00FD8F52 /* AudioToolbox.framework */,
+				777B17FB1B03E2B700FD8F52 /* CoreMedia.framework */,
+				777B17F91B03E29600FD8F52 /* libicucore.dylib */,
+				777B17F71B03E28900FD8F52 /* libstdc++.6.dylib */,
+				777B17F51B03E27E00FD8F52 /* GLKit.framework */,
+				777B17F31B03E26B00FD8F52 /* CoreTelephony.framework */,
+				777B17CC1B03E06C00FD8F52 /* iotknock */,
+				777B17E61B03E06C00FD8F52 /* iotknockTests */,
+				777B17CB1B03E06C00FD8F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		777B17CB1B03E06C00FD8F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777B17CA1B03E06C00FD8F52 /* iotknock.app */,
+				777B17E31B03E06C00FD8F52 /* iotknockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777B17CC1B03E06C00FD8F52 /* iotknock */ = {
+			isa = PBXGroup;
+			children = (
+				777B17D11B03E06C00FD8F52 /* AppDelegate.h */,
+				777B17D21B03E06C00FD8F52 /* AppDelegate.m */,
+				777B17D41B03E06C00FD8F52 /* ViewController.h */,
+				777B17D51B03E06C00FD8F52 /* ViewController.m */,
+				777B17D71B03E06C00FD8F52 /* Main.storyboard */,
+				777B17DA1B03E06C00FD8F52 /* Images.xcassets */,
+				777B17DC1B03E06C00FD8F52 /* LaunchScreen.xib */,
+				777B17CD1B03E06C00FD8F52 /* Supporting Files */,
+			);
+			path = iotknock;
+			sourceTree = "<group>";
+		};
+		777B17CD1B03E06C00FD8F52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777B17CE1B03E06C00FD8F52 /* Info.plist */,
+				777B17CF1B03E06C00FD8F52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		777B17E61B03E06C00FD8F52 /* iotknockTests */ = {
+			isa = PBXGroup;
+			children = (
+				777B17E91B03E06C00FD8F52 /* iotknockTests.m */,
+				777B17E71B03E06C00FD8F52 /* Supporting Files */,
+			);
+			path = iotknockTests;
+			sourceTree = "<group>";
+		};
+		777B17E71B03E06C00FD8F52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777B17E81B03E06C00FD8F52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		777B17C91B03E06C00FD8F52 /* iotknock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777B17ED1B03E06C00FD8F52 /* Build configuration list for PBXNativeTarget "iotknock" */;
+			buildPhases = (
+				777B17C61B03E06C00FD8F52 /* Sources */,
+				777B17C71B03E06C00FD8F52 /* Frameworks */,
+				777B17C81B03E06C00FD8F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iotknock;
+			productName = iotknock;
+			productReference = 777B17CA1B03E06C00FD8F52 /* iotknock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		777B17E21B03E06C00FD8F52 /* iotknockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777B17F01B03E06C00FD8F52 /* Build configuration list for PBXNativeTarget "iotknockTests" */;
+			buildPhases = (
+				777B17DF1B03E06C00FD8F52 /* Sources */,
+				777B17E01B03E06C00FD8F52 /* Frameworks */,
+				777B17E11B03E06C00FD8F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777B17E51B03E06C00FD8F52 /* PBXTargetDependency */,
+			);
+			name = iotknockTests;
+			productName = iotknockTests;
+			productReference = 777B17E31B03E06C00FD8F52 /* iotknockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777B17C21B03E06C00FD8F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chris Hughes";
+				TargetAttributes = {
+					777B17C91B03E06C00FD8F52 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = S92EFY97SR;
+					};
+					777B17E21B03E06C00FD8F52 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 777B17C91B03E06C00FD8F52;
+					};
+				};
+			};
+			buildConfigurationList = 777B17C51B03E06C00FD8F52 /* Build configuration list for PBXProject "iotknock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 777B17C11B03E06C00FD8F52;
+			productRefGroup = 777B17CB1B03E06C00FD8F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777B17C91B03E06C00FD8F52 /* iotknock */,
+				777B17E21B03E06C00FD8F52 /* iotknockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		777B17C81B03E06C00FD8F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777B17D91B03E06C00FD8F52 /* Main.storyboard in Resources */,
+				777B17DE1B03E06C00FD8F52 /* LaunchScreen.xib in Resources */,
+				777B17DB1B03E06C00FD8F52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777B17E11B03E06C00FD8F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777B17C61B03E06C00FD8F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777B17D61B03E06C00FD8F52 /* ViewController.m in Sources */,
+				777B17D31B03E06C00FD8F52 /* AppDelegate.m in Sources */,
+				777B17D01B03E06C00FD8F52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777B17DF1B03E06C00FD8F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777B17EA1B03E06C00FD8F52 /* iotknockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		777B17E51B03E06C00FD8F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 777B17C91B03E06C00FD8F52 /* iotknock */;
+			targetProxy = 777B17E41B03E06C00FD8F52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		777B17D71B03E06C00FD8F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777B17D81B03E06C00FD8F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		777B17DC1B03E06C00FD8F52 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777B17DD1B03E06C00FD8F52 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		777B17EB1B03E06C00FD8F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		777B17EC1B03E06C00FD8F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		777B17EE1B03E06C00FD8F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/chrishughes/Projects/KandyKnocker/iOSKandySDK_1.4.0/Frameworks,
+				);
+				INFOPLIST_FILE = iotknock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a6283f8-98f2-4096-b0c5-013fbc7fb946";
+			};
+			name = Debug;
+		};
+		777B17EF1B03E06C00FD8F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/chrishughes/Projects/KandyKnocker/iOSKandySDK_1.4.0/Frameworks,
+				);
+				INFOPLIST_FILE = iotknock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a6283f8-98f2-4096-b0c5-013fbc7fb946";
+			};
+			name = Release;
+		};
+		777B17F11B03E06C00FD8F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iotknockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotknock.app/iotknock";
+			};
+			name = Debug;
+		};
+		777B17F21B03E06C00FD8F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iotknockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iotknock.app/iotknock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		777B17C51B03E06C00FD8F52 /* Build configuration list for PBXProject "iotknock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777B17EB1B03E06C00FD8F52 /* Debug */,
+				777B17EC1B03E06C00FD8F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777B17ED1B03E06C00FD8F52 /* Build configuration list for PBXNativeTarget "iotknock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777B17EE1B03E06C00FD8F52 /* Debug */,
+				777B17EF1B03E06C00FD8F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		777B17F01B03E06C00FD8F52 /* Build configuration list for PBXNativeTarget "iotknockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777B17F11B03E06C00FD8F52 /* Debug */,
+				777B17F21B03E06C00FD8F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777B17C21B03E06C00FD8F52 /* Project object */;
+}
