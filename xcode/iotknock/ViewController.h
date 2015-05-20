@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <KandySDK/KandySDK.h>
 
-@interface ViewController : UIViewController <KandyChatServiceNotificationDelegate>
+@interface ViewController : UIViewController <KandyChatServiceNotificationDelegate, KandyCallServiceNotificationDelegate, UIActionSheetDelegate>
 
 
 @end
